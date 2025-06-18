@@ -1,0 +1,24 @@
+{
+  "name": "@nju-helper/script",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "rollup-plugin-obfuscator": "^1.1.0",
+    "typescript": "^5.4.5",
+    "unplugin-auto-import": "^0.17.2",
+    "vite": "^5.2.12",
+    "vite-plugin-monkey": "^4.0.0"
+  },
+  "dependencies": {
+    "typescript-eslint": "^8.13.0"
+  },
+  "packageManager": "pnpm@9.1.2"
+}
